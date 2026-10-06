@@ -37,7 +37,7 @@ html{
 
 :root {
   --color-default: #A15BA1;
-  --color-primary: #A15BA1;
+  --color-primary:#A15BA1;
   --color-secondary: #A15BA1;
 }
 
@@ -48,6 +48,7 @@ html{
 body {
   font-family: 'Poppins', var(--font-default);
   color: var(--color-default); 
+  background-color: #000000;
 }
 
 a {
@@ -56,7 +57,7 @@ a {
 }
 
 a:hover {
-  color: #A15BA1;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -327,7 +328,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: #C28ABC;
+  background-color: #000000;
 }
 
 .header.sticked {
@@ -540,7 +541,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #C28ABC;
+    background: #000000;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -571,7 +572,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #C28ABC;
   }
 
   .navbar .getstarted,
@@ -1453,7 +1454,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #A15BA1;
+  background-color: #000000;
   padding: 50px 0;
   color: white;
 }
